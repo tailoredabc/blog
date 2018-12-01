@@ -6,23 +6,9 @@ module.exports = {
     url: 'https://blog.tailored.hu',
     title: 'Alex Blogja',
     subtitle:
-      '"Programozós gondolatok"',
+      'Az alapok, tömören',
     copyright: '© All rights reserved.',
     disqusShortname: '',
-    menu: [
-      {
-        label: 'Articles',
-        path: '/',
-      },
-      {
-        label: 'About me',
-        path: '/about/',
-      },
-      {
-        label: 'Contact me',
-        path: '/contact/',
-      },
-    ],
     author: {
       name: 'Alex Szabó',
       email: 'kreatemore@gmail.com',
