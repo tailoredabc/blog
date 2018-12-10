@@ -1,31 +1,6 @@
 @import "../../assets/scss/mixins";
 @import "../../assets/scss/variables";
 
-.gatsby-highlight {
-  background-color: #2d2d2d;
-  border-radius: 0.3em;
-  margin: 0.5em 0;
-  padding: 1em;
-  overflow: auto;
-}
-
-.gatsby-highlight pre[class*="language-"] {
-  background-color: transparent;
-  margin: 0;
-  padding: 0;
-  overflow: initial;
-  float: left;
-  min-width: 100%;
-}
-
-code[class*="language-"], pre[class*="language-"] {
-  text-shadow: none;
-}
-
-.token {
-  background: none !important;
-}
-
 .post {
   @include margin-bottom(1.25);
 
