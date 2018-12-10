@@ -11,12 +11,17 @@ tags:
 description: "Függvények"
 ---
 
-Az előző részben láttuk, hogyan lehet kiiratni valamit: `console.log('valami');`
+Az előző részben láttuk, hogyan lehet kiiratni valamit: 
+```javascript
+console.log('valami');
+```
 
 Ebben a fejezetben egy kicsit közelebbről megismerkedünk a függvényekkel.
 A fenti példában egyelőre ne foglalkozzunk a `console` résszel és a ponttal, ami marad az:
 
-`log('valami');`
+```javascript
+log('valami');
+```
 
 Mi az a `log`? Leegyszerűsítve egy függvény (angolul `function`). Legegyszerűbben pedig azt mondhatjuk, hogy egy függvény 0 és *n* közötti bemenetet kaphat, végrehajt egy, vagy több utasítást, és visszaadhat egy értéket (csak egyet, vagy semmit).
 
@@ -24,7 +29,12 @@ Mi az a `log`? Leegyszerűsítve egy függvény (angolul `function`). Legegyszer
 
 Nézzünk meg egy olyan példát, ami kicsit könnyebben érthető.
 
-Ha azt írjuk, hogy `var eredmeny = 1 + 2;`, akkor az `eredmeny` értékét kiiratva megkapjuk, hogy `3`.
+Ha azt írjuk, hogy 
+
+```javascript
+var eredmeny = 1 + 2;
+```
+akkor az `eredmeny` értékét kiiratva megkapjuk, hogy `3`.
 
 Ez egyszerű, de nem elég egyszerű ahhoz, hogy könnyen újra felhasználható legyen. Jobban tennénk, ha valahova beküldenénk két számot, és megkapnánk az eredményét.
 
