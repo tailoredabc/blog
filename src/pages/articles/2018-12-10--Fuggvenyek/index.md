@@ -1,6 +1,6 @@
 ---
-title: Függvények
-date: "2018-12-10T19:07:00.000Z"
+title: "f(x) = x, emlékszel?"
+date: "2018-12-10T21:54:00.000Z"
 layout: post
 draft: false
 path: "/posts/fuggvenyek/"
