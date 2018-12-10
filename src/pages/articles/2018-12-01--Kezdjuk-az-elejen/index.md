@@ -38,12 +38,15 @@ console.log(uzenet);
 
 Ez a program ugyanazt fogja eredményezni, mint amit előtte láttunk.
 A különbség az, hogy az "Üzenet" szót egy _változóban_ tároljuk.
-- `var` ez a kulcssó azt jelenti, hogy ami utána jön az a változó neve. Később ezzel a névvel tudunk hivatkozni rá.
+- `var` (variable = változó) ez a *kulcsszó** azt jelenti, hogy ami utána jön az a változó neve. Később ezzel a névvel tudunk hivatkozni rá.
 - `uzenet` ez a változó neve. Több féle "írásmód" létezik, általában a nyelvtől függ, hogy mi az ajánlás, de saját magunk is eldönthetjük melyiket használjuk. A két legelterjedtebbre egy-egy példa:
     - `camelCase`, például: `aValtozoNeve` - a külön írandó szavakat egybe írjuk, és a nagybetű jelenti az egyes szavak határait.
     - `snake_case`, például: `a_valtozo_neve` - itt a szóközt egyszerűen egy `_` karakter helyettesíti
 - az `=` után a változó értéke következik. Ezután, ha a változó nevével hivatkozunk rá, az értékét fogjuk visszakapni (leegyszerűsítve)
 - `"Üzenet"` maga az érték. Szövegnél két `"` vagy `'` karakter kell, hogy körbevegye.
+
+\* Mi az a "kulcsszó"? A kulcsszó (keyword vagy reserved word) egy olyan szó, ami az utána következő "dolgot" meghatározza. 
+Ebben a példában a `var` az, ami az `uzenet`-et változóvá teszi. Később több példát is hozunk erre.
 
 A változónak több szerepe lehet egy programban, nézzünk meg néhányat ezek közül:
 ### Segít jelentést adni egy értéknek.
