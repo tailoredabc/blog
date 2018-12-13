@@ -145,7 +145,7 @@ console.log(b); // 1
 
 _ az `a++` növeli az értéket, de a régi értéket adja vissza, a `++b` szintén növeli az értéket, de az új értéket is adja vissza.
 
-**Fontos**, hogy ez az egyik legveszélyesebb művelet, olyan szempontból, hogyha itt hibát vétünk, könnyen a végtelenségig ismétlődhet a ciklus. Ez azt jelenti, hogy egyre több és több rendszer erőforrást fog igényelni a programunk, és nem fog válaszolni, hiszen elfoglalt lesz egy dologgal. Félni sosem kell, ezt észre fogjuk venni, és könnyen kijavíthatjuk majd.
+**Fontos**, hogy a ciklus az egyik legveszélyesebb művelet, olyan szempontból, hogyha itt hibát vétünk, könnyen a végtelenségig ismétlődhet a ciklus. Ez azt jelenti, hogy egyre több és több rendszer erőforrást fog igényelni a programunk, és nem fog válaszolni, hiszen elfoglalt lesz egy dologgal. Félni sosem kell, ezt észre fogjuk venni, és könnyen kijavíthatjuk majd.
 
 ### While loop
 
