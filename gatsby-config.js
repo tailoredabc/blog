@@ -48,7 +48,7 @@ module.exports = {
                   url: site.siteMetadata.site_url + edge.node.fields.slug,
                   guid: site.siteMetadata.site_url + edge.node.fields.slug,
                   custom_elements: [{ 'content:encoded': edge.node.html }],
-                })
+                }),
               ),
             query: `
               {
@@ -95,28 +95,36 @@ module.exports = {
             options: { wrapperStyle: 'margin-bottom: 1.0725rem' },
           },
           {
-            resolve: `gatsby-remark-prismjs`,
+            resolve: 'gatsby-remark-prismjs',
             options: {
               classPrefix: 'language-',
               inlineCodeMarker: 'null',
               aliases: {
-                text: 'javascript'
+                text: 'javascript',
               },
               showLineNumbers: false,
-              noInlineHighlight: false
-            }
+              noInlineHighlight: false,
+            },
           },
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
+          {
+            resolve: 'gatsby-remark-embedded-codesandbox',
+            options: {
+              directory: `${__dirname}/src/code-examples/`,
+              protocol: 'embedded-codesandbox://',
+              embedOptions: {
+                view: 'preview',
+                hidenavigation: 1,
+              },
+              getIframe: url => `<iframe src="${url}" class="embedded-codesandbox" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>`,
+            },
+          }
         ],
       },
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' },
-    },
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {

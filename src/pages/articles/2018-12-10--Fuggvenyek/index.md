@@ -40,13 +40,8 @@ Ez egyszerű, de nem elég egyszerű ahhoz, hogy könnyen újra felhasználható
 
 Ez egy remek alkalom arra, hogy írjunk egy függvényt.
 
-```javascript
-function osszead(a, b) {
-  return a + b;
-}
+[Példa](embedded-codesandbox://functions?view=split&expanddevtools=1)
 
-var eredmeny = osszead(1, 2);
-``` 
 
 Szedjük darabokra:
 * `function` - ez a kulcsszó, aminek segítségével deklarálhatunk/leírhatunk egy függvényt.
