@@ -40,7 +40,7 @@ Ez egyszerű, de nem elég egyszerű ahhoz, hogy könnyen újra felhasználható
 
 Ez egy remek alkalom arra, hogy írjunk egy függvényt.
 
-[Példa](embedded-codesandbox://functions?view=split&expanddevtools=1)
+[Példa](embedded-codesandbox://functions)
 
 
 Szedjük darabokra:

@@ -114,12 +114,14 @@ module.exports = {
               directory: `${__dirname}/src/code-examples/`,
               protocol: 'embedded-codesandbox://',
               embedOptions: {
-                view: 'preview',
                 hidenavigation: 1,
+                expanddevtools: 1,
+                view: 'split',
+                verticallayout: 1,
               },
               getIframe: url => `<iframe src="${url}" class="embedded-codesandbox" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>`,
             },
-          }
+          },
         ],
       },
     },
