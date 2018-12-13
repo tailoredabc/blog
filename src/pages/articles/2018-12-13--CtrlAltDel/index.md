@@ -28,15 +28,7 @@ Egy program menetében lehetnek elágazások, bizonyos feltételek alapján.
 ### Ha - vagy ha - egyébként
 Ez az egyik leggyakrabban használt elágazási forma
 
-```javascript
-if(ma === 'Hétfő') {
-  console.log('Fúj');
-} else if ((ma === 'Hétfő' && kellDolgozni === false) || ma === 'Péntek') {
-  console.log('Hurrá!!');
-} else {
-  console.log('Kitartás!');
-}
-```
+[Példa](embedded-codesandbox://if-else)
 
 Nézzük, mit jelent a fenti kód.
 
@@ -63,18 +55,7 @@ Fontos lehet megjegyezni, hogy ha az egyszerűbb módot választjuk kiértékel�
 ### Bizonyos esetekben
 Ha túl sok `if else`-et készülünk írni, hasznos lehet ezt ismerni
 
-```javascript
-switch(ma) {
-  case 'Hétfő':
-    console.log('Fúj');
-    break;
-  case 'Péntek':
-    console.log('Hurrá!');
-    break;
-  default:
-    console.log('Kitartás!');
-}
-```
+[Példa](embedded-codesandbox://switch)
 
 * `switch(ertek)` azt jelenti, hogy a zárójelben szereplő változó értéke alapján fogunk eseteket felvázolni
 * `case 'Hétfő'` ez ugyanaz, mintha azt írnánk egy `if`-ben, hogy `ma === 'Hétfő'`
