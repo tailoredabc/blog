@@ -35,6 +35,7 @@
     "gatsby-plugin-sass": "^2.0.1",
     "gatsby-plugin-sharp": "^2.0.6",
     "gatsby-plugin-sitemap": "^2.0.1",
+    "gatsby-remark-autolink-headers": "^2.0.12",
     "gatsby-remark-copy-linked-files": "^2.0.5",
     "gatsby-remark-embedded-codesandbox": "^1.2.0",
     "gatsby-remark-images": "^2.0.6",
