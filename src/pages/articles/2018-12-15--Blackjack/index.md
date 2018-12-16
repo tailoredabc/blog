@@ -140,7 +140,7 @@ Akkor nincs más hátra, mint megírni a kódot ahhoz, hogy havernak oda tudjuk 
 
 [Példa](embedded-codesandbox://blackjack/3?previewwindow=tests)
 
-Miután _tiszta győzelemmel (🙄)_ besöpörtük a többiek minden vagyonát (akik valószínűleg erre már csak holnap ébrednek rá, mert a folyamatos vesztés nem arra sarkallta őket, hogy _kevesebbet igyanak_), az est fénypontjaként kártyatrükkökkel tervezzük szórakoztatni a többieket.
+Miután _tiszta győzelemmel_ (🙄) besöpörtük a többiek minden vagyonát (akik valószínűleg erre már csak holnap ébrednek rá, mert a folyamatos vesztés nem arra sarkallta őket, hogy _kevesebbet igyanak_), az est fénypontjaként kártyatrükkökkel tervezzük szórakoztatni a többieket.
 Persze a játszmákhoz hasonlóan, most is csalni szeretne a cimboránk, és mivel a nyereménye 50%-át nekünk ígérte, az elveinket a kukába dobva már ugrunk is neki a következő kihívásnak.
 
 Az első trükk az lesz, hogy egy adott pakliban szereplő lapok értékének összegét meg tudjuk mondani.
