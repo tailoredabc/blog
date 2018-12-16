@@ -14,7 +14,7 @@
     "arrow-parens": ["error", "as-needed"],
     "comma-dangle": ["error", "always-multiline"],
     "function-paren-newline": "off",
-    "no-console": "off",
+    "no-console": "error",
     "prefer-destructuring": "off",
     "import/extensions": "off",
     "import/no-extraneous-dependencies": "off",

@@ -75,7 +75,7 @@ Ez most nem is érdemel több figyelmet, később részletesebben kitérünk err
 A függvény hasznos eszköz, ha arra van szükségünk, hogy
 * Egy ismétlődő feladatot ne kelljen újra és újra megírnunk
 * Egy bizonyos utasítás sorozatot névvel lássunk el, hogy könnyebben lehessen érteni.
-Például ha azt látjuk, hogy `return n % 2 === 0` elsőre nem sokat mond (pláne így az elején), de ha ezt egy függvénybe zárjuk: `function parosSzam(szam) {...}` akkor már van is egy jó tippünk, hogy mire való ez a kód.
+Például ha azt látjuk, hogy `return n % 2 === 0` elsőre nem sokat mond (pláne így az elején), de ha ezt egy függvénybe zárjuk: `function parosSzam(jel) {...}` akkor már van is egy jó tippünk, hogy mire való ez a kód.
 
 Mindig érdemes figyelni arra, hogy
 * a függvény neve alapján könnyen kitalálhassuk mi lesz az eredménye.
