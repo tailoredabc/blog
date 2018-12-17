@@ -110,6 +110,14 @@ const sorbaRendezettGyerekek =
   gyerekek.sort((elozoGyerek, kovetkezoGyerek) => elozoGyerek.eletkor - kovetkezoGyerek.eletkor);
 ```
 
+Ez a rész is érdemel némi figyelmet: `elozoGyerek.eletkor - kovetkezoGyerek.eletkor`
+
+A `sort()` mindig egy számot kell visszaadjon, ez a szám jelöli, hogy egymáshoz képest milyen viszonyban van a két elem, pl
+* 0 - a két elem egyenlő
+* 1 - a második elem a nagyobb
+* -1 - az első elem a nagyobb
+
+
 Így már tudjuk, hogyan kell sorba rendezni, de valahogy meg kéne találni a legkisebb _3_-at.
 
 Ehhez hasznos lehet a `slice()` - két opcionális paramétere van.
