@@ -134,7 +134,7 @@ Ha meg szeretnénk tudni, ki az első két gyerek, ezt írjuk:
 sorbaRendezettGyerekek.slice(0, 2);
 ```
 
-Mert a 0. elemtől indulunk, egészen a 2. indexig, szóval a 0. és az 1. elem lesz az új tömbben.
+Mert a 0. elemtől indulunk, egészen a 2. indexig szeretnénk ezt a szeletet, szóval a 0. és az 1. elem lesz az új tömbben.
 
 Ami egy érdekes, de hasznos tudnivaló, hogy léteznek úgynevezett "chainable" metódusok.
 
