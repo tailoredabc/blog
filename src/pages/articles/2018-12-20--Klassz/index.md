@@ -106,8 +106,6 @@ Próbáljunk írni egy "pure function"-t, ami megfelel annak, hogy:
 
 [Példa](embedded-codesandbox://pure-function?previewwindow=tests)
 
-Akkor minden alkalommal egy egy elemű tömböt kapunk vissza: `[1]`.
-
 Akkor nézzük meg az objektum orientált emberek hogyan gondolkoznak erről.
 
 Először is, van egy fontos dolog, amit úgy hívnak, hogy osztály. Ez arra szolgál, 
