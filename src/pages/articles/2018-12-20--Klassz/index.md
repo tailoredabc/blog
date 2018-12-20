@@ -230,7 +230,6 @@ Van azonban még egy dimenziója ezeknek a kulcsszavaknak:
 `static` és `abstract`.
 
 A `static` azt jelenti, hogy annyira statikus a metódus, hogy nincs szüksége a példányra hozzá.
-Ez egy "pure function"-nek tekinthető (persze azért legyünk körültekintőek).
 
 ```javascript
 class AngolNyelvu {
