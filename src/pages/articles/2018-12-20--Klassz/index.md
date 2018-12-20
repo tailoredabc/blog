@@ -97,7 +97,7 @@ for (let i = 0; i < 10; i++) {
 }
 ```
 
-Az utolsó alkalommal ez már egy 10 elemű tömb lesz, tele egyesekkel (ezt a függvényt hívhatnám úgy is, hogy "az én középiskolai ellenőrzőm").
+Az utolsó alkalommal ez már egy 10 elemű tömb lesz, tele egyesekkel (ezt a függvényt hívhatnám úgy is, hogy "a középiskolai ellenőrzőm").
 Tehát ez nem jó módszer, hogy megőrizzük az úgynevezett "immutability"-t.
 
 Próbáljunk írni egy "pure function"-t, ami megfelel annak, hogy:
