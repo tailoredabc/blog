@@ -261,6 +261,6 @@ class AngolNyelvu {
 ```
 
 Valami hiányzik, nem? Méghozza az, hogy mit is csinál a köszönés. Pont ez az `abstract`
-lényege, annyit mond, hogy "mindenkinek aki ebből az osztályból örököl, kell ,hogy tudjon köszönni, de hogy hogy, az nem érdekel".
+lényege, annyit mond, hogy "mindenkinek aki ebből az osztályból örököl, kell, hogy tudjon köszönni, de hogy hogy, az nem érdekel".
 
 Hogy ez mire jó pontosan, azt később kivesézzük.
