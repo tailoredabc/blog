@@ -129,7 +129,7 @@ De mi az az `index`?
 Egy tömb elemének helyét jelöli. Nagyon fontos megjegyezni, hogy ezen a területen majdnem minden "0-ás indexű".
 Ez annyit tesz, hogy `gyerekek[0]` az Jancsi, `gyerekek[2]` pedig Pali. Van ennek történelmi háttere is, de az szorgalmi feladat lesz.
 
-Ha meg szeretnénk tudni, ki az első két gyerek, ezt írjuk:
+Ha meg szeretnénk tudni, ki az első két pistike, ezt írjuk:
 ```javascript
 sorbaRendezettGyerekek.slice(0, 2);
 ```
